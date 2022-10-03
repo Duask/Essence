@@ -18,7 +18,7 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  background-color: #ffffff;
+  background-color: #fff9f9;
   margin-top: 85px; }
   @media only screen and (max-width: 767px) {
     body {
@@ -166,6 +166,10 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
 
+.pink-background {
+ background-color: #f6d2d6 !important;
+ }
+
 .bg-white {
   background-color: #ffffff !important; }
 
@@ -247,7 +251,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  border-bottom: 1px solid #ebebeb;
+  border-bottom: 1px solid #f6d2d6;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   @media only screen and (max-width: 767px) {
@@ -279,7 +283,8 @@ img {
     @media only screen and (max-width: 767px) {
       .header_area .classy-navbar {
         height: 40px;
-        border-bottom: 1px solid #ebebeb; } }
+        background-color: #f6d2d6;
+        border-bottom: 1px solid #f6d2d6; } }
   .header_area .header-meta {
     height: 85px;
     position: relative;
@@ -289,7 +294,7 @@ img {
         height: 40px; } }
   .header_area .classynav ul li a {
     font-size: 16px;
-    color: #787878; }
+    color: #d46993; }
     .header_area .classynav ul li a:hover {
       color: #000000; }
   .header_area .classynav ul li .megamenu li a,
@@ -905,7 +910,7 @@ img {
 .brands-area {
   position: relative;
   z-index: 1;
-  background-color: #f5f7f9;
+  background-color: #f6d2d6;
   padding: 100px 5%; }
   @media only screen and (max-width: 767px) {
     .brands-area {
