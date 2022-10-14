@@ -46,7 +46,7 @@ a {
   transition: all 500ms ease 0s;
   text-decoration: none;
   outline: 0 solid transparent;
-  color: #fbf5f5;
+  color: #007bff;
   font-weight: 600;
   font-size: 12px; }
   a:hover, a:focus {
@@ -166,9 +166,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat; }
 
-.pink-background {
- background-color: #f6d2d6 !important;
- }
+
 
 .bg-white {
   background-color: #ffffff !important; }
@@ -209,7 +207,7 @@ img {
 
 /* ScrollUp */
 #scrollUp {
-  background-color: #ff084e;
+  background-color: #d46993;
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -237,12 +235,12 @@ img {
   text-transform: uppercase;
   font-size: 12px;
   line-height: 50px;
-  background-color: #0315ff;
+  background-color: #f493b7;
   letter-spacing: 1.5px;
   font-weight: 600; }
   .essence-btn:hover, .essence-btn:focus {
     color: #ffffff;
-    background-color: #dc0345; }
+    background-color: #d46993; }
 
 /* :: 4.0 Header Area CSS */
 .header_area {
@@ -251,6 +249,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  background-color: #f6d2f6;
   border-bottom: 1px solid #f6d2d6;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
@@ -265,10 +264,11 @@ img {
   .header_area .classy-navbar,
   .header_area .header-meta {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    min-width: 50%;
-    width: 50%; }
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    min-width: 40%;
+    width: 40%;
+    background-color: #f6d2d6; }
     @media only screen and (max-width: 767px) {
       .header_area .classy-navbar,
       .header_area .header-meta {
@@ -279,7 +279,7 @@ img {
         width: 100%; } }
   .header_area .classy-navbar {
     height: 85px;
-    padding: 5px 0 5px 5%; }
+    padding: 5px 0 5px 3%; }
     @media only screen and (max-width: 767px) {
       .header_area .classy-navbar {
         height: 40px;
@@ -293,7 +293,7 @@ img {
       .header_area .header-meta {
         height: 40px; } }
   .header_area .classynav ul li a {
-    font-size: 16px;
+    font-size: 15px;
     color: #d46993; }
     .header_area .classynav ul li a:hover {
       color: #000000; }
@@ -391,7 +391,7 @@ img {
     .header_area .cart-area a span {
       font-family: "Ubuntu", sans-serif;
       font-size: 18px;
-      color: #0315ff;
+      color: #d46993;
       font-weight: 700;
       position: absolute;
       top: -10px; }
@@ -467,7 +467,7 @@ img {
     .right-side-cart-area .cart-button a span {
       font-family: "Ubuntu", sans-serif;
       font-size: 18px;
-      color: #0315ff;
+      color: #d46993;
       font-weight: 700;
       position: absolute;
       top: -10px; }
@@ -576,6 +576,7 @@ img {
       padding: 100px 10%;
       position: relative;
       z-index: 10;
+      background-color: #fff9f9;
       -webkit-box-flex: 0;
       -ms-flex: 0 0 calc(100% - 190px);
       flex: 0 0 calc(100% - 190px);
@@ -704,7 +705,7 @@ img {
       .single_catagory_area .catagory-content a {
         font-size: 18px; } }
   .single_catagory_area:hover .catagory-content a {
-    color: #0315ff; }
+    color: #d46993; }
 
 /* :: 7.0 CTA Area CSS */
 .cta-area {
@@ -745,7 +746,7 @@ img {
   z-index: 1;
   margin-bottom: 50px;
   overflow: hidden;
-  background-color: #ffffff; }
+  background-color: ##fff9f9; }
   .single-product-wrapper .product-img {
     position: relative;
     z-index: 1;
@@ -779,9 +780,9 @@ img {
       left: 20px;
       z-index: 10; }
       .single-product-wrapper .product-img .product-badge.offer-badge {
-        background-color: #dc0345; }
+        background-color: #f463b7; }
       .single-product-wrapper .product-img .product-badge.new-badge {
-        background-color: #0315ff; }
+        background-color: #d46993; }
     .single-product-wrapper .product-img .product-favourite a {
       position: absolute;
       height: 25px;
@@ -1279,7 +1280,7 @@ img {
       font-weight: 300;
       text-transform: capitalize; }
       .widget.brands ul li a:hover {
-        color: #0315ff; }
+        color: #d46993; }
 
 .product-topbar {
   position: relative;
@@ -1333,11 +1334,11 @@ img {
   text-transform: uppercase;
   font-weight: 600; }
   .checkout_details_area form label span {
-    color: #0315ff; }
+    color: #d46993; }
 .checkout_details_area form .form-control {
   height: 42px;
   border: 1px solid #ebebeb;
-  background-color: transparent;
+  background-color: #ffffff;
   border-radius: 0; }
 .checkout_details_area form .nice-select {
   border-radius: 0;
@@ -1349,6 +1350,7 @@ img {
 .order-details-confirmation {
   width: 100%;
   border: 2px solid #ebebeb;
+  background-color: #ffffff;
   padding: 40px; }
   @media only screen and (max-width: 767px) {
     .order-details-confirmation {
@@ -1480,7 +1482,7 @@ img {
         font-size: 12px;
         font-weight: 600;
         margin-bottom: 0;
-        color: #0315ff;
+        color: #d46993;
         letter-spacing: 1.5px;
         text-transform: uppercase;
         margin-top: 50px; }
@@ -1668,7 +1670,7 @@ img {
       .regular-page-content-wrapper .regular-page-text blockquote h6 i {
         margin-right: 30px;
         font-size: 30px;
-        color: #0315ff; }
+        color: #d46993; }
     .regular-page-content-wrapper .regular-page-text blockquote span {
       margin-left: 60px;
       font-size: 16px;

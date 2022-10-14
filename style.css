@@ -11,3 +11,37 @@
     /* ---------------------------------------
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
+
+    #rightSideCart{
+        background-color: #f6d2d6;
+    }
+
+    .pink-background {
+        background-color: #f6d2d6 !important;
+        }
+
+    .nav-brand{
+        width: 200px;        
+    }
+
+    #essenceNav{
+        min-width: 60%;
+    }
+
+    #au{
+        width: auto;
+        height: -webkit-fill-available;
+        max-height: 90%;
+    }
+
+    .grid-margin {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bot-margin{
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
