@@ -68,7 +68,6 @@ ol {
 img {
   height: auto;
   max-width: 100%; }
-
 /* Spacing */
 .mt-15 {
   margin-top: 15px !important; }
@@ -241,6 +240,7 @@ img {
   .essence-btn:hover, .essence-btn:focus {
     color: #ffffff;
     background-color: #d46993; }
+
 
 /* :: 4.0 Header Area CSS */
 .header_area {
@@ -746,7 +746,7 @@ img {
   z-index: 1;
   margin-bottom: 50px;
   overflow: hidden;
-  background-color: ##fff9f9; }
+  background-color: #fff9f9; }
   .single-product-wrapper .product-img {
     position: relative;
     z-index: 1;
